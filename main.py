@@ -427,7 +427,6 @@ class sysInfo(QMainWindow):
         update_color.daemon = True
         update_color.start()
 
-        
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     
